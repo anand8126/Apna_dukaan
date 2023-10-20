@@ -1,0 +1,17 @@
+<header>
+  <div class="navbar bg-primary shadow-sm" style="display: flex;
+  justify-content: space-evenly; position: fixed; top: 0; width: 100%; z-index:2;">
+    <div class="navbar-brand align-item-center d-flex">
+      <i style="font-size: 20px;" class="fas fa-shipping-fast"> &nbsp;</i>
+      <strong style="font-size: 15px;">ApnaDukan</strong>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search Product">
+      </div>
+      <span class="fas fa-search search-icon"></span>
+      <button class="btn btn-primary" routerLink="/cart">
+        <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+        <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+      </button>
+    </div>
+  </div>
+</header>
